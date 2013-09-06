@@ -1,6 +1,4 @@
 <?php 
-// $Id$
-
 /**
  * @file
  * Adds a Facebook feed processor to the Feeds module.
@@ -21,15 +19,15 @@ function feeds_facebook_ctools_plugin_api($owner, $api) {
 function feeds_facebook_feeds_plugins() {
   $info = array();
   $info['FeedsFacebookParser'] = array(
-	  'name' => 'Facebook parser',
-	  'description' => 'Parse Facebook feeds.',
-	  'help' => '',
-	  'handler' => array(
-	    'parent' => 'FeedsParser',
-	    'class' => 'FeedsFacebookParser',
-	    'file' => 'FeedsFacebookParser.inc',
-	    'path' => drupal_get_path('module', 'feeds_facebook'),
-	  ),
-	);
+    'name' => 'Facebook parser',
+    'description' => 'Parse Facebook feeds.',
+    'help' => '',
+    'handler' => array(
+      'parent' => 'FeedsParser',
+      'class' => 'FeedsFacebookParser',
+      'file' => 'FeedsFacebookParser.inc',
+      'path' => drupal_get_path('module', 'feeds_facebook'),
+    ),
+  );
   return $info;
 }

@@ -1,5 +1,8 @@
 <?php
-// $Id$
+/**
+ * @file
+ * Schema definitions install/update/uninstall hooks.
+ */
 
 /**
  * Implementation of hook_enable().

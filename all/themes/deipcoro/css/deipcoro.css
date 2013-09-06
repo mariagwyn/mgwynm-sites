@@ -113,8 +113,6 @@ color: #fffdee;
 	margin-right: 6px;
 }
 .addthis-group .field-name-field-addthis-bott, .addthis-group .field-name-field-addthis-bott-big {
-	display: inline-block;
-	float: left;
 }
 
 /*** Taxonomy ***/
@@ -200,7 +198,8 @@ visibility: hidden;
 
 .footnote p {font-size: .9em; margin: .25em 0; line-height:1.2em;}
 #block-quotes-1 {width:400px; float:right; }
-
+.block-quotes .node-actions {display: none;}
+.block-quotes .quotes-author {padding-bottom: 1em;}
 .quote-msg {
   margin: 1em;
   padding: 1em 2em;
